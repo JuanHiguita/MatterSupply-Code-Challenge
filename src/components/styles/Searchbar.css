@@ -1,0 +1,46 @@
+.SearchBar{
+    width: 100%;
+    height: 40px;
+    margin: 1.5em 0 0.5em 0;
+}
+    
+.inputSearch{
+    color: rgb(201,209,217) !important;
+    border: rgb(48, 54, 61) 2px solid !important;
+    background-color: rgb(13,17,23) !important;
+    
+}
+    
+.inputSearch:focus {
+    background-color: rgb(33, 37, 41) !important;
+    
+}
+
+.buttonSearch{
+    padding-right: 27px !important;
+    padding-top: 3px !important;
+    width: 38px;
+    height: 38px;
+    border-radius: 100% !important;
+    margin-left: 0.5em;
+}
+
+.buttonSearch:hover{
+    border-radius: 100%;
+    background-color: rgb(59, 59, 59);
+}
+
+@media only screen and (min-width: 992px) {
+    .SearchBar{
+        width: 15em;
+        margin: 0.5em 0;
+    }
+    
+}
+
+@media only screen and (max-width: 575px){
+    .buttonSearch{
+        position: relative;
+        bottom: 7px;
+    }
+}

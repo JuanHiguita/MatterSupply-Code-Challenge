@@ -1,0 +1,84 @@
+.gistContainer{
+    position: relative;
+    top:6em;
+    height: 15em;
+    
+    overflow: hidden;
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.gistHeader{
+    padding:1.5rem 0 1.5rem 0;
+    height: 80px;
+    position: absolute;
+}
+
+.gistInfo{
+    position: relative;
+    top: -40px;
+    left: 60px;
+    font-size: 14px;
+}
+.gistInfo a{
+    color: black;
+    text-decoration: none;
+    
+}
+.gistInfo a:hover{
+    color: black;
+    text-decoration: underline black ;
+}
+
+.updatedDate{
+    font-size: 12px;
+    position:relative;
+    top:-45px;
+    left: 61px;
+
+}
+
+.userImage {
+    height: 3em;
+    width: 4.5em !important;
+    border-radius: 100%;
+}
+
+.gistData :first-child{
+    color: black;
+    text-decoration: none;
+}
+
+.dropdownMenu {
+    position: relative;
+    top: -120px;
+    left: 87%;
+    
+}
+
+.delete{
+    color:rgb(248, 63, 63) !important;
+}
+
+#dropdown-basic{
+    font-size: 25px;
+    border-radius: 20px;
+    border:none;
+    color: rgb(112, 112, 112);
+    background-color: transparent;
+    
+}
+
+#dropdown-basic::after{
+    content: none;
+}
+
+@media only screen and (min-width: 600px) {
+    .gistContainer{
+        top:8em;
+    }
+
+    .dropdownMenu {
+        left: 95%;
+    }
+    
+}

@@ -1,0 +1,15 @@
+.git-login {
+    margin: 0.5em 0em;
+    width: 10em;
+    height: 2.5em;
+    padding: 5px;
+    color: white;
+    border: transparent;
+    background-color:rgb(22, 22, 22);
+}
+
+.github-logo {
+    margin-right: 10px;
+    width: 1.5em;
+    height: 1.5em;
+}

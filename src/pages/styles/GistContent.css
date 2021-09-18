@@ -1,0 +1,14 @@
+.content{
+    
+    margin: 6em auto 1em;
+    padding: 25px;
+    border: 1px solid rgb(218, 218, 218);
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+.backButton{
+    border-radius: 20px !important;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,62 @@
+
+.Navbar {
+  width: 100%;
+  padding: 0.5rem 2em;
+  background-color: #ffffff;
+  color: rgb(211, 211, 211);
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+.Navbar__brand {
+  color: #ffffff;
+  
+}
+.Navbar__brand-logo {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.user{
+  margin-top: 0.5em;
+  border-bottom:1px solid rgb(57, 59, 65);
+  border-top:1px solid rgb(57, 59, 65);
+}
+
+.user .userName {
+  position: relative;
+  color: rgb(211, 211, 211);
+  text-decoration: none;
+  top:4px;
+}
+
+.loggedUser{
+  margin: 0.5em;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 100%;
+}
+
+.responsive-menu-toggle{
+  width: 3em;
+  margin: 0 0 0.1em 0em;
+}
+
+@media only screen and (min-width: 992px) {
+
+  .Navbar-container{
+    position: relative;
+  }
+
+  .Navbar-container .Navbar__brand{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 10%;
+  }
+  
+  .user{
+    margin: 0.5em 2.5em 0 0;
+    border:none;
+  }
+
+}

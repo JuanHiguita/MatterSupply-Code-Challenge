@@ -1,0 +1,17 @@
+.displayUpdateGistForm{
+    width: 100% !important;
+    color: black !important;
+    text-align: left !important;
+    border: none !important;
+    height: 10px !important;
+    position: relative !important;
+    bottom:13px !important;
+    right: 13px !important;
+    background-color: transparent !important;
+    
+}
+
+.displayUpdateGistForm:hover{
+    color: black !important;
+    border: none;
+}
