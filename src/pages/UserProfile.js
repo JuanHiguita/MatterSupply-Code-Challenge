@@ -42,7 +42,7 @@ class UserProfile extends Component {
                         this.state.gists.map((gist,index) => {
                             const keys = Object.keys(gist.files);
                             return(
-                                <OwnGist gist={gist} index={index} keys={keys} gistId={gist.id} token={this.props.token}/>
+                                <OwnGist gist={gist} index={index} key={gist.id} keys={keys} token={this.props.token}/>
                             )
                         })
                     ):(

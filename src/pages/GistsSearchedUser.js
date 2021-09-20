@@ -18,7 +18,7 @@ class GistSearchedUser extends Component {
                         this.props.searchedUserGists.map((gist,index) => {
                             const keys = Object.keys(gist.files);
                             return(
-                                <Gist gist={gist} index={index} keys={keys} gistId={gist.id}/>
+                                <Gist gist={gist} index={index} key={gist.id} keys={keys}/>
                             )
                         })
                     ):(

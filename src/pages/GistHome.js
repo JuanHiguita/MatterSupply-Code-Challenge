@@ -34,7 +34,7 @@ class GistHome extends Component {
                         this.state.publicGists.map((gist,index) => {
                             const keys = Object.keys(gist.files);
                             return(
-                                <Gist gist={gist} index={index} keys={keys} gistId={gist.id}/>
+                                <Gist gist={gist} index={index} keys={keys} key={gist.id}/>
                             )
                         })
                     ):(
